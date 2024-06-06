@@ -1,4 +1,4 @@
-module github.com/swaggest/rest
+module github.com/dikac/swaggest-rest
 
 go 1.17
 
