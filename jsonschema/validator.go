@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"net/http"
 
+	"github.com/dikac/swaggest-rest"
 	"github.com/santhosh-tekuri/jsonschema/v3"
-	"github.com/swaggest/rest"
 )
 
 var _ rest.Validator = &Validator{}

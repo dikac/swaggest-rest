@@ -7,13 +7,13 @@ import (
 	"net/http/httptest"
 	"testing"
 
+	"github.com/dikac/swaggest-rest/gzip"
+	"github.com/dikac/swaggest-rest/nethttp"
+	"github.com/dikac/swaggest-rest/response"
+	gzip2 "github.com/dikac/swaggest-rest/response/gzip"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"github.com/swaggest/assertjson"
-	"github.com/swaggest/rest/gzip"
-	"github.com/swaggest/rest/nethttp"
-	"github.com/swaggest/rest/response"
-	gzip2 "github.com/swaggest/rest/response/gzip"
 	"github.com/swaggest/usecase"
 )
 

@@ -3,8 +3,8 @@ package rest_test
 import (
 	"testing"
 
+	"github.com/dikac/swaggest-rest"
 	"github.com/stretchr/testify/assert"
-	"github.com/swaggest/rest"
 )
 
 func TestHandlerTrait_RestHandler(t *testing.T) {

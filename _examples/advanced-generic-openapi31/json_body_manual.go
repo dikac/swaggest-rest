@@ -11,9 +11,9 @@ import (
 	"log"
 	"net/http"
 
+	"github.com/dikac/swaggest-rest/request"
 	"github.com/go-chi/chi/v5"
 	"github.com/swaggest/jsonschema-go"
-	"github.com/swaggest/rest/request"
 	"github.com/swaggest/usecase"
 )
 

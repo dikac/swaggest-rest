@@ -6,10 +6,10 @@ import (
 	"net/http"
 	"net/http/httptest"
 
+	"github.com/dikac/swaggest-rest"
+	"github.com/dikac/swaggest-rest/chirouter"
+	"github.com/dikac/swaggest-rest/request"
 	"github.com/go-chi/chi/v5"
-	"github.com/swaggest/rest"
-	"github.com/swaggest/rest/chirouter"
-	"github.com/swaggest/rest/request"
 )
 
 func ExamplePathToURLValues() {

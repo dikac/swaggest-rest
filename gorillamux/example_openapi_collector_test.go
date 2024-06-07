@@ -6,13 +6,13 @@ import (
 	"net/http"
 	"strconv"
 
+	"github.com/dikac/swaggest-rest"
+	"github.com/dikac/swaggest-rest/gorillamux"
+	"github.com/dikac/swaggest-rest/nethttp"
+	"github.com/dikac/swaggest-rest/request"
 	"github.com/gorilla/mux"
 	"github.com/swaggest/openapi-go"
 	"github.com/swaggest/openapi-go/openapi3"
-	"github.com/swaggest/rest"
-	"github.com/swaggest/rest/gorillamux"
-	"github.com/swaggest/rest/nethttp"
-	"github.com/swaggest/rest/request"
 )
 
 // Define request structure for your HTTP handler.

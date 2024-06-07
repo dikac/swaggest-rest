@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"reflect"
 
-	"github.com/swaggest/rest"
+	"github.com/dikac/swaggest-rest"
 )
 
 var (

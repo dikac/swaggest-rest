@@ -9,16 +9,16 @@ import (
 	"net/url"
 	"testing"
 
+	"github.com/dikac/swaggest-rest"
+	"github.com/dikac/swaggest-rest/chirouter"
+	"github.com/dikac/swaggest-rest/nethttp"
+	"github.com/dikac/swaggest-rest/web"
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/chi/v5/middleware"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"github.com/swaggest/assertjson"
 	"github.com/swaggest/openapi-go/openapi3"
-	"github.com/swaggest/rest"
-	"github.com/swaggest/rest/chirouter"
-	"github.com/swaggest/rest/nethttp"
-	"github.com/swaggest/rest/web"
 	"github.com/swaggest/usecase"
 )
 

@@ -3,8 +3,8 @@ package request
 import (
 	"net/http"
 
-	"github.com/swaggest/rest"
-	"github.com/swaggest/rest/nethttp"
+	"github.com/dikac/swaggest-rest"
+	"github.com/dikac/swaggest-rest/nethttp"
 	"github.com/swaggest/usecase"
 )
 

@@ -1,8 +1,8 @@
-module github.com/swaggest/rest/_examples
+module github.com/dikac/swaggest-rest/_examples
 
 go 1.18
 
-replace github.com/swaggest/rest => ../
+replace github.com/dikac/swaggest-rest => ../
 
 require (
 	github.com/bool64/ctxd v1.2.1
@@ -19,7 +19,7 @@ require (
 	github.com/swaggest/assertjson v1.9.0
 	github.com/swaggest/jsonschema-go v0.3.70
 	github.com/swaggest/openapi-go v0.2.50
-	github.com/swaggest/rest v0.0.0-00010101000000-000000000000
+	github.com/dikac/swaggest-rest v0.0.0-00010101000000-000000000000
 	github.com/swaggest/swgui v1.8.0
 	github.com/swaggest/usecase v1.3.1
 	github.com/valyala/fasthttp v1.52.0

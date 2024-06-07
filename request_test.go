@@ -3,8 +3,8 @@ package rest_test
 import (
 	"testing"
 
+	"github.com/dikac/swaggest-rest"
 	"github.com/stretchr/testify/assert"
-	"github.com/swaggest/rest"
 )
 
 func TestRequestErrors_Error(t *testing.T) {

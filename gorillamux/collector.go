@@ -4,11 +4,11 @@ import (
 	"net/http"
 	"reflect"
 
+	"github.com/dikac/swaggest-rest/nethttp"
+	"github.com/dikac/swaggest-rest/openapi"
 	"github.com/gorilla/mux"
 	"github.com/swaggest/jsonschema-go"
 	oapi "github.com/swaggest/openapi-go"
-	"github.com/swaggest/rest/nethttp"
-	"github.com/swaggest/rest/openapi"
 )
 
 // OpenAPICollector is a wrapper for openapi.Collector tailored to walk gorilla/mux router.

@@ -5,7 +5,7 @@ package main
 import (
 	"context"
 
-	"github.com/swaggest/rest/gzip"
+	"github.com/dikac/swaggest-rest/gzip"
 	"github.com/swaggest/usecase"
 )
 

@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"testing"
 
+	"github.com/dikac/swaggest-rest"
 	"github.com/stretchr/testify/assert"
-	"github.com/swaggest/rest"
 	"github.com/swaggest/usecase"
 	"github.com/swaggest/usecase/status"
 )

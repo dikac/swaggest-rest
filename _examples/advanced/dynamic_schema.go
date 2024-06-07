@@ -7,8 +7,8 @@ import (
 	"net/http"
 
 	"github.com/bool64/ctxd"
+	"github.com/dikac/swaggest-rest/request"
 	"github.com/swaggest/jsonschema-go"
-	"github.com/swaggest/rest/request"
 	"github.com/swaggest/usecase"
 	"github.com/swaggest/usecase/status"
 )

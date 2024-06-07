@@ -10,12 +10,12 @@ import (
 	"sort"
 	"strings"
 
+	"github.com/dikac/swaggest-rest"
+	"github.com/dikac/swaggest-rest/nethttp"
 	"github.com/swaggest/form/v5"
 	"github.com/swaggest/jsonschema-go"
 	"github.com/swaggest/openapi-go"
 	"github.com/swaggest/refl"
-	"github.com/swaggest/rest"
-	"github.com/swaggest/rest/nethttp"
 )
 
 var _ DecoderMaker = &DecoderFactory{}

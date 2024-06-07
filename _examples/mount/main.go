@@ -6,11 +6,11 @@ import (
 	"log"
 	"net/http"
 
+	"github.com/dikac/swaggest-rest/nethttp"
+	"github.com/dikac/swaggest-rest/web"
 	"github.com/go-chi/chi/v5/middleware"
 	"github.com/swaggest/openapi-go"
 	"github.com/swaggest/openapi-go/openapi3"
-	"github.com/swaggest/rest/nethttp"
-	"github.com/swaggest/rest/web"
 	swgui "github.com/swaggest/swgui/v5emb"
 	"github.com/swaggest/usecase"
 )

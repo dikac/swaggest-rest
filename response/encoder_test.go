@@ -5,11 +5,11 @@ import (
 	"net/http/httptest"
 	"testing"
 
+	"github.com/dikac/swaggest-rest"
+	"github.com/dikac/swaggest-rest/jsonschema"
+	"github.com/dikac/swaggest-rest/response"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/swaggest/rest"
-	"github.com/swaggest/rest/jsonschema"
-	"github.com/swaggest/rest/response"
 	"github.com/swaggest/usecase"
 )
 

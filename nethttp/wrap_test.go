@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"testing"
 
+	"github.com/dikac/swaggest-rest/nethttp"
 	"github.com/stretchr/testify/assert"
-	"github.com/swaggest/rest/nethttp"
 )
 
 func TestWrapHandler(t *testing.T) {

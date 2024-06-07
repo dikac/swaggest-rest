@@ -1,8 +1,8 @@
 # REST with Clean Architecture for Go
 
-[![Build Status](https://github.com/swaggest/rest/workflows/test-unit/badge.svg)](https://github.com/swaggest/rest/actions?query=branch%3Amaster+workflow%3Atest-unit)
+[![Build Status](https://github.com/dikac/swaggest-rest/workflows/test-unit/badge.svg)](https://github.com/dikac/swaggest-rest/actions?query=branch%3Amaster+workflow%3Atest-unit)
 [![Coverage Status](https://codecov.io/gh/swaggest/rest/branch/master/graph/badge.svg)](https://codecov.io/gh/swaggest/rest)
-[![GoDevDoc](https://img.shields.io/badge/dev-doc-00ADD8?logo=go)](https://pkg.go.dev/github.com/swaggest/rest)
+[![GoDevDoc](https://img.shields.io/badge/dev-doc-00ADD8?logo=go)](https://pkg.go.dev/github.com/dikac/swaggest-rest)
 [![Time Tracker](https://wakatime.com/badge/github/swaggest/rest.svg)](https://wakatime.com/badge/github/swaggest/rest)
 ![Code lines](https://sloc.xyz/github/swaggest/rest/?category=code)
 ![Comments](https://sloc.xyz/github/swaggest/rest/?category=comments)
@@ -73,7 +73,7 @@ Input data can be located in:
 * `header` parameter in request header.
 
 For more explicit separation of concerns between use case and transport it is possible to provide request mapping 
-separately when initializing handler (please note, such mapping is [not applied](https://github.com/swaggest/rest/issues/61#issuecomment-1059851553) to `json` body).
+separately when initializing handler (please note, such mapping is [not applied](https://github.com/dikac/swaggest-rest/issues/61#issuecomment-1059851553) to `json` body).
 
 ```go
 // Declare input port type.
@@ -99,11 +99,11 @@ Additional field tags describe JSON schema constraints, please check
 More schema customizations are possible with [`github.com/swaggest/jsonschema-go interfaces`](https://github.com/swaggest/jsonschema-go#implementing-interfaces-on-a-type).
 
 By default `default` tags are only contributing to documentation, 
-if [`request.DecoderFactory.ApplyDefaults`](https://pkg.go.dev/github.com/swaggest/rest/request#DecoderFactory) is 
+if [`request.DecoderFactory.ApplyDefaults`](https://pkg.go.dev/github.com/dikac/swaggest-rest/request#DecoderFactory) is 
 set to `true`, fields of request structure that don't have explicit value but have `default` will be populated with 
 default value.
 
-If input structure implements [`request.Loader`](https://pkg.go.dev/github.com/swaggest/rest/request#Loader),  
+If input structure implements [`request.Loader`](https://pkg.go.dev/github.com/dikac/swaggest-rest/request#Loader),  
 then `LoadFromHTTPRequest(r *http.Request) error` method will be invoked to populate input structure instead 
 of automatic decoding. This allows low level control for cases that need it.
 
@@ -202,7 +202,7 @@ u := usecase.NewInteractor(func(ctx context.Context, input helloInput, output *h
 
 ### Initializing Web Service
 
-[Web Service](https://pkg.go.dev/github.com/swaggest/rest/web#DefaultService) is an instrumented facade in front of 
+[Web Service](https://pkg.go.dev/github.com/dikac/swaggest-rest/web#DefaultService) is an instrumented facade in front of 
 router, it simplifies configuration and provides more compact API to add use cases.
 
 ```go
@@ -319,8 +319,8 @@ import (
 	"time"
 
 	"github.com/swaggest/openapi-go/openapi31"
-	"github.com/swaggest/rest/response/gzip"
-	"github.com/swaggest/rest/web"
+	"github.com/dikac/swaggest-rest/response/gzip"
+	"github.com/dikac/swaggest-rest/web"
 	swgui "github.com/swaggest/swgui/v5emb"
 	"github.com/swaggest/usecase"
 	"github.com/swaggest/usecase/status"
@@ -418,10 +418,10 @@ func (i *myInput) LoadFromHTTPRequest(r *http.Request) (err error) {
 
 If `request.Loader` is implemented, it will be called instead of both automatic decoding and validation.
 
-Check advanced [example](https://github.com/swaggest/rest/blob/v0.2.29/_examples/advanced-generic/json_body_manual.go#L58).
+Check advanced [example](https://github.com/dikac/swaggest-rest/blob/v0.2.29/_examples/advanced-generic/json_body_manual.go#L58).
 
 To further improve performance you may try to use `fasthttp` instead of `net/http` with 
-[`rest-fasthttp`](https://github.com/swaggest/rest-fasthttp) fork.
+[`rest-fasthttp`](https://github.com/dikac/swaggest-rest-fasthttp) fork.
 
 ## Versioning
 

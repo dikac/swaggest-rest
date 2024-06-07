@@ -11,9 +11,9 @@ import (
 	"net/http"
 	"time"
 
+	"github.com/dikac/swaggest-rest/response/gzip"
+	"github.com/dikac/swaggest-rest/web"
 	"github.com/swaggest/openapi-go/openapi31"
-	"github.com/swaggest/rest/response/gzip"
-	"github.com/swaggest/rest/web"
 	swgui "github.com/swaggest/swgui/v5emb"
 	"github.com/swaggest/usecase"
 	"github.com/swaggest/usecase/status"

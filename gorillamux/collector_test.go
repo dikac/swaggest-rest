@@ -4,12 +4,12 @@ import (
 	"net/http"
 	"testing"
 
+	"github.com/dikac/swaggest-rest/gorillamux"
 	"github.com/gorilla/mux"
 	"github.com/stretchr/testify/assert"
 	"github.com/swaggest/assertjson"
 	"github.com/swaggest/openapi-go"
 	"github.com/swaggest/openapi-go/openapi3"
-	"github.com/swaggest/rest/gorillamux"
 	"github.com/swaggest/usecase"
 )
 

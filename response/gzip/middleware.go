@@ -13,7 +13,7 @@ import (
 	"sync"
 	"syscall"
 
-	gz "github.com/swaggest/rest/gzip"
+	gz "github.com/dikac/swaggest-rest/gzip"
 )
 
 const (

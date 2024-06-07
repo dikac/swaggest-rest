@@ -7,4 +7,4 @@ assignees: ''
 
 ---
 
-Please use discussions https://github.com/swaggest/rest/discussions/categories/q-a to make your question more discoverable by other folks.
+Please use discussions https://github.com/dikac/swaggest-rest/discussions/categories/q-a to make your question more discoverable by other folks.

@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"net/http"
 
+	"github.com/dikac/swaggest-rest/nethttp"
+	"github.com/dikac/swaggest-rest/web"
 	"github.com/swaggest/assertjson"
 	oapi "github.com/swaggest/openapi-go"
 	"github.com/swaggest/openapi-go/openapi3"
-	"github.com/swaggest/rest/nethttp"
-	"github.com/swaggest/rest/web"
 	"github.com/swaggest/usecase"
 )
 

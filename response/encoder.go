@@ -10,9 +10,9 @@ import (
 	"strings"
 	"sync"
 
+	"github.com/dikac/swaggest-rest"
 	"github.com/swaggest/form/v5"
 	"github.com/swaggest/refl"
-	"github.com/swaggest/rest"
 	"github.com/swaggest/usecase"
 	"github.com/swaggest/usecase/status"
 )

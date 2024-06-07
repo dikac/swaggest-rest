@@ -10,10 +10,10 @@ import (
 	"strconv"
 	"sync"
 
+	"github.com/dikac/swaggest-rest"
 	"github.com/swaggest/jsonschema-go"
 	"github.com/swaggest/openapi-go"
 	"github.com/swaggest/openapi-go/openapi3"
-	"github.com/swaggest/rest"
 	"github.com/swaggest/usecase"
 )
 

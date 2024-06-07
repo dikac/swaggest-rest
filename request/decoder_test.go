@@ -9,13 +9,13 @@ import (
 	"testing"
 	"time"
 
+	"github.com/dikac/swaggest-rest"
+	"github.com/dikac/swaggest-rest/jsonschema"
+	"github.com/dikac/swaggest-rest/openapi"
+	"github.com/dikac/swaggest-rest/request"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	jschema "github.com/swaggest/jsonschema-go"
-	"github.com/swaggest/rest"
-	"github.com/swaggest/rest/jsonschema"
-	"github.com/swaggest/rest/openapi"
-	"github.com/swaggest/rest/request"
 )
 
 // BenchmarkDecoder_Decode-4   	 1314788	       857 ns/op	     448 B/op	       4 allocs/op.

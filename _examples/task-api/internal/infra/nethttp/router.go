@@ -4,16 +4,16 @@ import (
 	"net/http"
 	"time"
 
+	"github.com/dikac/swaggest-rest"
+	"github.com/dikac/swaggest-rest/_examples/task-api/internal/infra/schema"
+	"github.com/dikac/swaggest-rest/_examples/task-api/internal/infra/service"
+	"github.com/dikac/swaggest-rest/_examples/task-api/internal/usecase"
+	"github.com/dikac/swaggest-rest/nethttp"
+	"github.com/dikac/swaggest-rest/web"
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/chi/v5/middleware"
 	"github.com/swaggest/openapi-go"
 	"github.com/swaggest/openapi-go/openapi3"
-	"github.com/swaggest/rest"
-	"github.com/swaggest/rest/_examples/task-api/internal/infra/schema"
-	"github.com/swaggest/rest/_examples/task-api/internal/infra/service"
-	"github.com/swaggest/rest/_examples/task-api/internal/usecase"
-	"github.com/swaggest/rest/nethttp"
-	"github.com/swaggest/rest/web"
 	swgui "github.com/swaggest/swgui/v5emb"
 )
 

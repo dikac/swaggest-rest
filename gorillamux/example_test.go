@@ -6,10 +6,10 @@ import (
 	"net/http"
 	"net/http/httptest"
 
+	"github.com/dikac/swaggest-rest"
+	"github.com/dikac/swaggest-rest/gorillamux"
+	"github.com/dikac/swaggest-rest/request"
 	"github.com/gorilla/mux"
-	"github.com/swaggest/rest"
-	"github.com/swaggest/rest/gorillamux"
-	"github.com/swaggest/rest/request"
 )
 
 func ExamplePathToURLValues() {

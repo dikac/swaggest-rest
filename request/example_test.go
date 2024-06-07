@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/swaggest/rest/request"
+	"github.com/dikac/swaggest-rest/request"
 )
 
 func ExampleDecoder_Decode() {

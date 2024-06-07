@@ -7,9 +7,9 @@ import (
 	"net/http"
 	"testing"
 
+	"github.com/dikac/swaggest-rest"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/swaggest/rest"
 )
 
 func Test_decodeJSONBody(t *testing.T) {

@@ -5,16 +5,16 @@ import (
 	"errors"
 	"net/http"
 
+	"github.com/dikac/swaggest-rest"
+	"github.com/dikac/swaggest-rest/nethttp"
+	"github.com/dikac/swaggest-rest/response"
+	"github.com/dikac/swaggest-rest/response/gzip"
+	"github.com/dikac/swaggest-rest/web"
 	"github.com/go-chi/chi/v5"
 	"github.com/google/uuid"
 	"github.com/swaggest/jsonschema-go"
 	oapi "github.com/swaggest/openapi-go"
 	"github.com/swaggest/openapi-go/openapi3"
-	"github.com/swaggest/rest"
-	"github.com/swaggest/rest/nethttp"
-	"github.com/swaggest/rest/response"
-	"github.com/swaggest/rest/response/gzip"
-	"github.com/swaggest/rest/web"
 	swgui "github.com/swaggest/swgui/v5emb"
 )
 

@@ -5,11 +5,11 @@ import (
 	"net/http"
 	"testing"
 
+	"github.com/dikac/swaggest-rest/nethttp"
+	"github.com/dikac/swaggest-rest/web"
 	"github.com/stretchr/testify/require"
 	"github.com/swaggest/assertjson"
 	"github.com/swaggest/openapi-go/openapi3"
-	"github.com/swaggest/rest/nethttp"
-	"github.com/swaggest/rest/web"
 	"github.com/swaggest/usecase"
 )
 

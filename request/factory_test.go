@@ -9,11 +9,11 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/dikac/swaggest-rest"
+	"github.com/dikac/swaggest-rest/request"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"github.com/swaggest/jsonschema-go"
-	"github.com/swaggest/rest"
-	"github.com/swaggest/rest/request"
 )
 
 func TestDecoderFactory_SetDecoderFunc(t *testing.T) {

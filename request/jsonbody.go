@@ -9,7 +9,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/swaggest/rest"
+	"github.com/dikac/swaggest-rest"
 )
 
 var bufPool = sync.Pool{

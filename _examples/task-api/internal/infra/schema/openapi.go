@@ -2,7 +2,7 @@
 package schema
 
 import (
-	"github.com/swaggest/rest/openapi"
+	"github.com/dikac/swaggest-rest/openapi"
 )
 
 // SetupOpenAPICollector sets up API documentation collector.

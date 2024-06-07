@@ -1,6 +1,6 @@
 package service
 
-import "github.com/swaggest/rest/_examples/task-api/internal/domain/task"
+import "github.com/dikac/swaggest-rest/_examples/task-api/internal/domain/task"
 
 // TaskCreatorProvider is a service locator provider.
 type TaskCreatorProvider interface {

@@ -7,7 +7,7 @@ import (
 	"encoding/csv"
 	"net/http"
 
-	"github.com/swaggest/rest"
+	"github.com/dikac/swaggest-rest"
 	"github.com/swaggest/usecase"
 	"github.com/swaggest/usecase/status"
 )

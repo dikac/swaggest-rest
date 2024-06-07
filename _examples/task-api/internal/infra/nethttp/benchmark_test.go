@@ -9,12 +9,12 @@ import (
 	"testing"
 
 	"github.com/bool64/httptestbench"
+	"github.com/dikac/swaggest-rest/_examples/task-api/internal/domain/task"
+	"github.com/dikac/swaggest-rest/_examples/task-api/internal/infra"
+	"github.com/dikac/swaggest-rest/_examples/task-api/internal/infra/nethttp"
+	"github.com/dikac/swaggest-rest/_examples/task-api/internal/infra/service"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/swaggest/rest/_examples/task-api/internal/domain/task"
-	"github.com/swaggest/rest/_examples/task-api/internal/infra"
-	"github.com/swaggest/rest/_examples/task-api/internal/infra/nethttp"
-	"github.com/swaggest/rest/_examples/task-api/internal/infra/service"
 	"github.com/valyala/fasthttp"
 )
 

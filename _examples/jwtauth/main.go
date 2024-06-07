@@ -64,11 +64,11 @@ import (
 	"fmt"
 	"net/http"
 
+	"github.com/dikac/swaggest-rest/nethttp"
+	"github.com/dikac/swaggest-rest/web"
 	"github.com/go-chi/chi/v5"
 	jwtauth "github.com/go-chi/jwtauth/v5"
 	"github.com/swaggest/openapi-go/openapi31"
-	"github.com/swaggest/rest/nethttp"
-	"github.com/swaggest/rest/web"
 	"github.com/swaggest/usecase"
 )
 

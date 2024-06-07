@@ -6,10 +6,10 @@ import (
 	"net/http"
 	"time"
 
+	"github.com/dikac/swaggest-rest/_examples/task-api/internal/infra"
+	"github.com/dikac/swaggest-rest/_examples/task-api/internal/infra/nethttp"
+	"github.com/dikac/swaggest-rest/_examples/task-api/internal/infra/service"
 	"github.com/kelseyhightower/envconfig"
-	"github.com/swaggest/rest/_examples/task-api/internal/infra"
-	"github.com/swaggest/rest/_examples/task-api/internal/infra/nethttp"
-	"github.com/swaggest/rest/_examples/task-api/internal/infra/service"
 )
 
 func main() {

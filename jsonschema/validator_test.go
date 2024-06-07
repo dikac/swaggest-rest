@@ -7,11 +7,11 @@ import (
 	"testing"
 	"time"
 
+	"github.com/dikac/swaggest-rest"
+	"github.com/dikac/swaggest-rest/jsonschema"
+	"github.com/dikac/swaggest-rest/openapi"
+	"github.com/dikac/swaggest-rest/request"
 	"github.com/stretchr/testify/assert"
-	"github.com/swaggest/rest"
-	"github.com/swaggest/rest/jsonschema"
-	"github.com/swaggest/rest/openapi"
-	"github.com/swaggest/rest/request"
 )
 
 // BenchmarkRequestValidator_ValidateRequestData-4   	  634356	      1761 ns/op	    2496 B/op	       8 allocs/op.

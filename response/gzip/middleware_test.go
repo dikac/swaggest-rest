@@ -10,10 +10,10 @@ import (
 	"sync"
 	"testing"
 
+	gzip2 "github.com/dikac/swaggest-rest/gzip"
+	"github.com/dikac/swaggest-rest/response/gzip"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	gzip2 "github.com/swaggest/rest/gzip"
-	"github.com/swaggest/rest/response/gzip"
 )
 
 func TestMiddleware(t *testing.T) {

@@ -3,10 +3,10 @@ package nethttp
 import (
 	"net/http"
 
+	"github.com/dikac/swaggest-rest"
+	"github.com/dikac/swaggest-rest/openapi"
 	oapi "github.com/swaggest/openapi-go"
 	"github.com/swaggest/openapi-go/openapi3"
-	"github.com/swaggest/rest"
-	"github.com/swaggest/rest/openapi"
 )
 
 // OpenAPIMiddleware reads info and adds validation to handler.

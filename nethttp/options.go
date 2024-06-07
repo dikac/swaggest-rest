@@ -4,10 +4,10 @@ import (
 	"net/http"
 	"reflect"
 
+	"github.com/dikac/swaggest-rest"
 	"github.com/swaggest/openapi-go"
 	"github.com/swaggest/openapi-go/openapi3"
 	"github.com/swaggest/refl"
-	"github.com/swaggest/rest"
 )
 
 // OptionsMiddleware applies options to encountered nethttp.Handler.

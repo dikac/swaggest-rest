@@ -5,9 +5,9 @@ import (
 	"net/url"
 	"strings"
 
+	"github.com/dikac/swaggest-rest"
+	"github.com/dikac/swaggest-rest/nethttp"
 	"github.com/swaggest/form/v5"
-	"github.com/swaggest/rest"
-	"github.com/swaggest/rest/nethttp"
 )
 
 type (

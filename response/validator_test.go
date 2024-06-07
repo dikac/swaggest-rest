@@ -6,12 +6,12 @@ import (
 	"net/http/httptest"
 	"testing"
 
+	"github.com/dikac/swaggest-rest/jsonschema"
+	"github.com/dikac/swaggest-rest/nethttp"
+	"github.com/dikac/swaggest-rest/openapi"
+	"github.com/dikac/swaggest-rest/response"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/swaggest/rest/jsonschema"
-	"github.com/swaggest/rest/nethttp"
-	"github.com/swaggest/rest/openapi"
-	"github.com/swaggest/rest/response"
 	"github.com/swaggest/usecase"
 )
 
